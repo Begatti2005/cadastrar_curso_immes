@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0+WCOwmgAwyFXZr3j/65ABhTHynHOqB+vBlkdAzHeE8=",
+  "Source": "ImmesAPI",
+  "BasePath": "_content/ImmesAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

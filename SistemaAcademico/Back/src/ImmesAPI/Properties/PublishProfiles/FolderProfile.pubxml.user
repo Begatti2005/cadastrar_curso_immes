@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>F:\Eduardo\Projetos\Immes\SistemaAcademico\Back\src\ImmesAPI\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-11-18T20:58:10.2632301Z||;True|2024-11-18T17:54:50.6737907-03:00||;True|2024-11-18T14:45:50.5882887-03:00||;True|2024-11-18T14:45:23.9319980-03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

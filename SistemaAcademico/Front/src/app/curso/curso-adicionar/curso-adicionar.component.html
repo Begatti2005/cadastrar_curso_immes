@@ -1,0 +1,29 @@
+<h3>Cadastro de Cursos</h3>
+<hr>
+<form (ngSubmit)="adicionar()">
+    <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-12">
+            <label class="form-label">Nome</label>
+            <input class="form-control" [(ngModel)]="curso.nome" name="nome" />
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+            <label class="form-label">Período</label>
+            <select [(ngModel)]="curso.periodo" name="periodo" class="form-select">
+                @for (periodo of periodos; track $index) {
+                    <option [ngValue]="periodo.id">{{ periodo.descricao }}</option>
+                }
+            </select>         
+        </div>
+    </div>
+    <hr>
+    <div>
+        <button class="btn btn-danger mr-5" type="reset">
+            <i class="bi bi-x-circle"></i>
+            Cancelar
+        </button>
+        <button class="btn btn-success" type="submit">
+            <i class="bi bi-floppy"></i>
+            Confirmar
+        </button>
+    </div>        
+</form>
